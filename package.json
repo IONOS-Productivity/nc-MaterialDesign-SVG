@@ -3,6 +3,7 @@
   "version": "7.4.47",
   "description": "Material Design Icons SVG",
   "scripts": {
+    "build": "echo \"Build step is not yet implemented\"",
     "verify": "node scripts/verify.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
