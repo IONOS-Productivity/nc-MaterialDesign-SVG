@@ -16,9 +16,13 @@ to_camel_case() {
     echo "$input" | sed -E 's/-([a-z])/\U\1/g'
 }
 
-# Initialize the TypeScript export statement if the output file doesn't exist yet
-if [ ! -f "$OUTPUT_FILE" ]; then
-	echo "export default {" > "$TEMP_FILE"
+# If OUTPUT_FILE exists, copy its contents to TEMP_FILE; otherwise, initialize it
+if [ -f "$OUTPUT_FILE" ]; then
+    # Copy the existing content except the final "};" line, if it exists
+    sed '$d' "$OUTPUT_FILE" > "$TEMP_FILE"
+else
+    # Initialize the TypeScript export statement
+    echo "export default {" > "$TEMP_FILE"
 fi
 
 # Find all unique icon imports, excluding *.cy.ts files
@@ -45,6 +49,7 @@ while IFS= read -r fileName; do
 	added_icons+=("$fileName")
 done <<< "$all_imports"
 
+echo "}" >> "$TEMP_FILE"
 
 # Display summary
 echo -e "\n=== Icon import process completed ==="
@@ -58,23 +63,6 @@ else
     echo "$added_count new icons added."
 fi
 
-# Finalize the TypeScript file if the output file doesn't exist yet
-if [ ! -f "$OUTPUT_FILE" ]; then
-	echo "};" >> "$TEMP_FILE"
-fi
-
-# Replace the output file with the temporary file content if it's not empty
-if [ -s "$TEMP_FILE" ]; then
-	# Add existing mappings to the TEMP_FILE
-	if [ -f "$OUTPUT_FILE" ]; then
-		# Append existing mappings if they exist
-		cat "$OUTPUT_FILE" >> "$TEMP_FILE"
-	fi
-	# Move the temporary file to the output file
-	mv "$TEMP_FILE" "$OUTPUT_FILE"
-	echo "Icon mappings have been updated in $OUTPUT_FILE"
-else
-	# If TEMP_FILE is empty, remove it
-	rm "$TEMP_FILE"
-	echo "No new icons found. No changes made to $OUTPUT_FILE."
-fi
+# Replace the output file with the temporary file content
+mv "$TEMP_FILE" "$OUTPUT_FILE"
+echo "Icon mappings have been updated in $OUTPUT_FILE"
