@@ -1,36 +1,39 @@
 {
-  "name": "@mdi/svg",
-  "version": "7.4.47",
-  "description": "Material Design Icons SVG",
-  "scripts": {
-    "build": "ts-node ./build.ts",
-    "verify": "node scripts/verify.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Templarian/MaterialDesign-SVG.git"
-  },
-  "keywords": [
-    "material",
-    "design",
-    "icons",
-    "mdi"
-  ],
-  "author": "Austin Andrews",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/Templarian/MaterialDesign/issues"
-  },
-  "homepage": "https://materialdesignicons.com/",
-  "devDependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.6.0",
-    "@fortawesome/free-brands-svg-icons": "^6.6.0",
-    "@fortawesome/pro-regular-svg-icons": "^6.6.0",
-    "@fortawesome/pro-solid-svg-icons": "^6.6.0",
-    "@fortawesome/sharp-regular-svg-icons": "^6.6.0",
-    "@fortawesome/sharp-solid-svg-icons": "^6.6.0",
-	"ts-node": "^10.9.2",
-    "typescript": "^5.6.3"
-  }
+	"name": "@mdi/svg",
+	"version": "7.4.47",
+	"description": "Material Design Icons SVG",
+	"scripts": {
+		"build": "ts-node ./build.ts",
+		"verify": "node scripts/verify.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"format": "prettier . --write",
+		"format:check": "prettier . --check"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Templarian/MaterialDesign-SVG.git"
+	},
+	"keywords": [
+		"material",
+		"design",
+		"icons",
+		"mdi"
+	],
+	"author": "Austin Andrews",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/Templarian/MaterialDesign/issues"
+	},
+	"homepage": "https://materialdesignicons.com/",
+	"devDependencies": {
+		"@fortawesome/fontawesome-svg-core": "^6.6.0",
+		"@fortawesome/free-brands-svg-icons": "^6.6.0",
+		"@fortawesome/pro-regular-svg-icons": "^6.6.0",
+		"@fortawesome/pro-solid-svg-icons": "^6.6.0",
+		"@fortawesome/sharp-regular-svg-icons": "^6.6.0",
+		"@fortawesome/sharp-solid-svg-icons": "^6.6.0",
+		"prettier": "3.3.3",
+		"ts-node": "^10.9.2",
+		"typescript": "^5.6.3"
+	}
 }

@@ -1,0 +1,13 @@
+# Ignore artifacts:
+build
+coverage
+# Generated files:
+iconMappings.ts
+package-lock.json
+
+# Ignore inital repo files
+font-build.json
+meta.json
+README.md
+scripts/verify.js
+svg/*.svg
