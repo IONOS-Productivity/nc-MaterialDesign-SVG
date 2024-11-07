@@ -6,7 +6,7 @@ import {
 	IconLookup,
 	IconName,
 	IconPrefix,
-	library,
+	library
 } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/pro-solid-svg-icons';
@@ -26,28 +26,25 @@ const svgDir = path.resolve(__dirname, 'svg');
 const getIconName = (icon: string): IconLookup => {
 	const prefix = <IconPrefix>icon?.split('-', 1)[0] || '';
 	if (!prefix) {
-		throw new Error(
-			`Icon "${icon}" not found. Expected format: <prefix>-<name>`
-		);
+		throw new Error(`Icon "${icon}" not found. Expected format: <prefix>-<name>`);
 	}
 
 	const iconName = <IconName>icon.slice(prefix.length + 1) || '';
 
 	return {
 		prefix,
-		iconName,
+		iconName
 	};
 };
 
 export const replaceSvgPath = async (filePath: string, iconPath: string) => {
-		const originalSvg = await fs.readFile(filePath, 'utf-8');
+	const originalSvg = await fs.readFile(filePath, 'utf-8');
 
-		const newSvg = originalSvg.replace(/<path[^>]*\sd="[^"]*"/, `<path d="${iconPath}"`);
+	const newSvg = originalSvg.replace(/<path[^>]*\sd="[^"]*"/, `<path d="${iconPath}"`);
 
-		await fs.writeFile(filePath, newSvg);
-		console.log(`Updated ${filePath}`);
+	await fs.writeFile(filePath, newSvg);
+	console.log(`Updated ${filePath}`);
 };
-
 
 export const updateSvgIcons = () => {
 	Object.entries(iconMappings).forEach(([, icon]) => {
@@ -72,7 +69,6 @@ export const updateSvgIcons = () => {
 			} else {
 				console.error(`File not found: ${filePath}`);
 			}
-
 		} catch (e) {
 			console.error(e);
 		}
