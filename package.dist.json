@@ -1,0 +1,21 @@
+{
+	"name": "@mdi/svg",
+	"version": "7.4.47",
+	"description": "Material Design Icons SVG",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Templarian/MaterialDesign-SVG.git"
+	},
+	"keywords": [
+		"material",
+		"design",
+		"icons",
+		"mdi"
+	],
+	"author": "Austin Andrews",
+	"license": "Apache-2.0",
+	"bugs": {
+		"url": "https://github.com/Templarian/MaterialDesign/issues"
+	},
+	"homepage": "https://materialdesignicons.com/"
+}
