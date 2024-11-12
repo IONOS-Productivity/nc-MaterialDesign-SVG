@@ -37,12 +37,17 @@ const getIconName = (icon: string): IconLookup => {
 	};
 };
 
-export const replaceSvgPath = async (filePath: string, iconPath: string) => {
+export const updateSvg = async (filePath: string, iconPath: string) => {
 	const originalSvg = await fs.readFile(filePath, 'utf-8');
 
-	const newSvg = originalSvg.replace(/<path[^>]*\sd="[^"]*"/, `<path d="${iconPath}"`);
+	let updatedSvg = originalSvg.replace(/<path[^>]*\sd="[^"]*"/, `<path d="${iconPath}"`);
 
-	await fs.writeFile(filePath, newSvg);
+	updatedSvg = updatedSvg.replace(
+		/<svg([^>]*)>/,
+		`<svg$1 class="fa-raw-icon__svg">`
+	);
+
+	await fs.writeFile(filePath, updatedSvg);
 	console.log(`Updated ${filePath}`);
 };
 
@@ -65,7 +70,7 @@ export const updateSvgIcons = () => {
 			const filePath = path.resolve(svgDir, icon.file);
 
 			if (existsSync(filePath)) {
-				replaceSvgPath(filePath, iconPath);
+				updateSvg(filePath, iconPath);
 			} else {
 				console.error(`File not found: ${filePath}`);
 			}
