@@ -16,7 +16,7 @@ import { fass } from '@fortawesome/sharp-solid-svg-icons';
 import iconMappings from './iconMappings';
 import { existsSync } from 'fs';
 import fs from 'fs/promises';
-
+import svgpath from 'svgpath';
 import path from 'path';
 
 library.add(fas, fab, far, fasr, fass);
@@ -51,7 +51,28 @@ export const updateSvg = async (filePath: string, iconPath: string): Promise<str
 	return updatedSvg;
 };
 
-export const updateSvgIcons = async () => {
+const scaleSVGPath = (iconDefinition:IconDefinition, targetWidth:number, targetHeight:number) => {
+	const originalWidth = iconDefinition?.icon[0] as number;
+	const originalHeight = iconDefinition?.icon[1] as number;
+	const iconPath = iconDefinition?.icon[4] as string;
+
+	const scaleX = targetWidth / originalWidth;
+	const scaleY = targetHeight / originalHeight;
+
+	const scale = Math.min(scaleX, scaleY);
+
+	// Calculate translations
+	const translateX = (targetWidth - originalWidth * scale) / 2;
+	const translateY = (targetHeight - originalHeight * scale) / 2;
+
+	return svgpath(iconPath)
+		.round(2)
+		.scale(scale)
+		.translate(translateX, translateY)
+		.toString();
+}
+
+export const updateSvgIcons = async (targetWidth:number = 24, targetHeight:number = 24) => {
 	for (const [, icon] of Object.entries(iconMappings)) {
 		let iconDefinition: IconDefinition;
 		try {
@@ -65,8 +86,6 @@ export const updateSvgIcons = async () => {
 				throw new Error(`Icon fa_icon is null for icon: ${icon.file}`);
 			}
 
-			const iconPath = iconDefinition?.icon[4] as string;
-
 			const filePath = path.resolve(svgDir, icon.file);
 			const outputFilePath = path.resolve(distDir, icon.file);
 
@@ -74,7 +93,8 @@ export const updateSvgIcons = async () => {
 				throw new Error(`File not found: ${filePath}`);
 			}
 
-			const newSvg = await updateSvg(filePath, iconPath);
+			const faScaledPath = scaleSVGPath(iconDefinition, targetWidth, targetHeight);
+			const newSvg = await updateSvg(filePath, faScaledPath);
 
 			await fs.writeFile(outputFilePath, newSvg);
 		} catch (e) {
@@ -83,4 +103,6 @@ export const updateSvgIcons = async () => {
 	}
 };
 
-updateSvgIcons();
+updateSvgIcons()
+	.then(() => console.log('Icons updated successfully'))
+	.catch(e => console.error(e));

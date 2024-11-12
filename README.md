@@ -56,4 +56,4 @@ npm run build
 ```
 
 The script will replace the Path of the icon and add a data attribute.
-TODO: Adjust the scripts to rescale the icons to a viewbox of 24x24px.
+The Path is resized to fit into a viewbox of 24x24px.
