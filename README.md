@@ -34,3 +34,26 @@ Great uses of the SVG Icon distribution includes:
 
 - [MaterialDesignIcons.com](https://materialdesignicons.com)
 - https://github.com/Templarian/MaterialDesign
+
+# Customization
+## Mapping
+To find all used mdi Icons and write them to the `iconMappings.ts` file, run the following command:
+```bash
+./generateIconMappings.sh
+```
+
+The script will skip icons that are already in the file and only add new ones. They have to be mapped manually to the correct FontAwesome icon.
+
+The `iconMappings.ts` file is also manually enhanced with the mapping for icons not used as mdi icon but as vue-material-design-icons.
+
+Not mapped icons have a `null` value for the `fa_icon` property.
+
+## Overwriting SVGs
+To override the SVGs of the mdi icons, with thei corresponding FontAwesome icons, run the following command:
+
+```bash
+npm run build
+```
+
+The script will replace the Path of the icon and add a data attribute.
+TODO: Adjust the scripts to rescale the icons to a viewbox of 24x24px.
