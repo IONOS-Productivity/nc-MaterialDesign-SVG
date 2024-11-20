@@ -38,14 +38,14 @@ const getIconName = (icon: string): IconLookup => {
 	};
 };
 
-export const updateSvg = async (filePath: string, iconPath: string): Promise<string> => {
+export const updateSvg = async (filePath: string, iconPath: string, iconName: string): Promise<string> => {
 	const originalSvg = await fs.readFile(filePath, 'utf-8');
 
 	let updatedSvg = originalSvg.replace(/<path[^>]*\sd="[^"]*"/, `<path d="${iconPath}"`);
 
 	updatedSvg = updatedSvg.replace(
 		/<svg([^>]*)>/,
-		`<svg$1 class="fa-raw-icon__svg">`
+		`<svg$1 class="fa-raw-icon__svg fa-id__${iconName}">`
 	);
 
 	return updatedSvg;
@@ -94,7 +94,7 @@ export const updateSvgIcons = async (targetWidth:number = 24, targetHeight:numbe
 			}
 
 			const faScaledPath = scaleSVGPath(iconDefinition, targetWidth, targetHeight);
-			const newSvg = await updateSvg(filePath, faScaledPath);
+			const newSvg = await updateSvg(filePath, faScaledPath, icon.fa_icon);
 
 			await fs.writeFile(outputFilePath, newSvg);
 		} catch (e) {
