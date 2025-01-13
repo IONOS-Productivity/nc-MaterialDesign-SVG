@@ -23,8 +23,51 @@ library.add(fas, fab, far, fasr, fass);
 
 const svgDir = path.resolve(__dirname, 'svg');
 const distDir = path.resolve(__dirname, 'dist/svg');
+const faParamsMapping = {
+	'fa': {
+		params: 'f=classic&s=solid',
+		license: 'free'
+	},
+	'far': {
+		params: 'f=classic&s=regular',
+		license: 'pro'
+	},
+	'fas': {
+		params: 'f=classic&s=solid',
+		license: 'pro'
+	},
+	'fab': {
+		params: 'f=brands&s=solid',
+		license: 'free'
+	},
+	'fasr': {
+		params: 'f=sharp&s=regular',
+		license: 'pro'
+	},
+	'fass': {
+		params: 'f=sharp&s=solid',
+		license: 'pro'
+	},
+};
 
-const getIconName = (icon: string): IconLookup => {
+/**
+ * Get icon extended info
+ * @param icon
+ */
+export const getIconInfo = (icon: string) => {
+	const { prefix, iconName  } = getIconName(icon);
+
+	if (!(prefix in faParamsMapping)) {
+		throw new Error(`Icon "${icon}" not found. Expected format: <prefix>-<name>`);
+	}
+
+	const iconInfo = faParamsMapping[prefix as keyof typeof faParamsMapping];
+	const iconLink = `https://fontawesome.com/icons/${iconName}?${iconInfo.params}`;
+
+	return { prefix, iconName, iconLink, license: iconInfo.license };
+}
+
+export const getIconName = (icon: string): IconLookup => {
 	const prefix = <IconPrefix>icon?.split('-', 1)[0] || '';
 	if (!prefix) {
 		throw new Error(`Icon "${icon}" not found. Expected format: <prefix>-<name>`);

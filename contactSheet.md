@@ -1,107 +1,107 @@
-| Icon Name | SVG File | FontAwesome Icon | Preview |
-|-----------|----------|------------------|---------|
-| accountCircleOutline | [account-circle-outline.svg](./svg/account-circle-outline.svg) | far-user-circle | ![](./svg/account-circle-outline.svg) |
-| accountClock | [account-clock.svg](./svg/account-clock.svg) | fas-user-clock | ![](./svg/account-clock.svg) |
-| accountGroup | [account-group.svg](./svg/account-group.svg) | fas-users | ![](./svg/account-group.svg) |
-| accountPlus | [account-plus.svg](./svg/account-plus.svg) | fas-user-plus | ![](./svg/account-plus.svg) |
-| account | [account.svg](./svg/account.svg) | fas-user | ![](./svg/account.svg) |
-| alertCircleOutline | [alert-circle-outline.svg](./svg/alert-circle-outline.svg) | far-exclamation-circle | ![](./svg/alert-circle-outline.svg) |
-| alertOutline | [alert-outline.svg](./svg/alert-outline.svg) | far-exclamation-triangle | ![](./svg/alert-outline.svg) |
-| arrowDown | [arrow-down.svg](./svg/arrow-down.svg) | fas-arrow-down | ![](./svg/arrow-down.svg) |
-| arrowLeft | [arrow-left.svg](./svg/arrow-left.svg) | fas-arrow-left | ![](./svg/arrow-left.svg) |
-| arrowRight | [arrow-right.svg](./svg/arrow-right.svg) | fas-arrow-right | ![](./svg/arrow-right.svg) |
-| arrowULeftTop | [arrow-u-left-top.svg](./svg/arrow-u-left-top.svg) | fas-rotate-left | ![](./svg/arrow-u-left-top.svg) |
-| arrowUp | [arrow-up.svg](./svg/arrow-up.svg) | fas-arrow-up | ![](./svg/arrow-up.svg) |
-| backupRestore | [backup-restore.svg](./svg/backup-restore.svg) | fas-clock-rotate-left | ![](./svg/backup-restore.svg) |
-| calendar | [calendar.svg](./svg/calendar.svg) | fa-calendar | ![](./svg/calendar.svg) |
-| calendarRange | [calendar-range.svg](./svg/calendar-range.svg) | far-calendar-range | ![](./svg/calendar-range.svg) |
-| cancel | [cancel.svg](./svg/cancel.svg) | fa-ban | ![](./svg/cancel.svg) |
-| chartPie | [chart-pie.svg](./svg/chart-pie.svg) | fas-chart-pie | ![](./svg/chart-pie.svg) |
-| check | [check.svg](./svg/check.svg) | far-check | ![](./svg/check.svg) |
-| checkBold | [check-bold.svg](./svg/check-bold.svg) | fas-check | ![](./svg/check-bold.svg) |
-| chevronDown | [chevron-down.svg](./svg/chevron-down.svg) | fas-chevron-down | ![](./svg/chevron-down.svg) |
-| chevronRight | [chevron-right.svg](./svg/chevron-right.svg) | fas-chevron-right | ![](./svg/chevron-right.svg) |
-| circleOutline | [circle-outline.svg](./svg/circle-outline.svg) | far-circle | ![](./svg/circle-outline.svg) |
-| circleSlice3 | [circle-slice-3.svg](./svg/circle-slice-3.svg) | far-circle-quarter-stroke | ![](./svg/circle-slice-3.svg) |
-| clipboard | [clipboard.svg](./svg/clipboard.svg) | fas-clipboard | ![](./svg/clipboard.svg) |
-| clipboardFlow | [clipboard-flow.svg](./svg/clipboard-flow.svg) | fas-copy | ![](./svg/clipboard-flow.svg) |
-| close | [close.svg](./svg/close.svg) | fas-xmark | ![](./svg/close.svg) |
-| cloud | [cloud.svg](./svg/cloud.svg) | fas-cloud | ![](./svg/cloud.svg) |
-| cloudCheckVariant | [cloud-check-variant.svg](./svg/cloud-check-variant.svg) | fas-cloud-check | ![](./svg/cloud-check-variant.svg) |
-| cog | [cog.svg](./svg/cog.svg) | fas-gear-complex | ![](./svg/cog.svg) |
-| contacts | [contacts.svg](./svg/contacts.svg) | fas-image-user | ![](./svg/contacts.svg) |
-| delete | [delete.svg](./svg/delete.svg) | fas-trash-can | ![](./svg/delete.svg) |
-| dotsHorizontal | [dots-horizontal.svg](./svg/dots-horizontal.svg) | far-ellipsis | ![](./svg/dots-horizontal.svg) |
-| download | [download.svg](./svg/download.svg) | fas-download | ![](./svg/download.svg) |
-| dragVertical | [drag-vertical.svg](./svg/drag-vertical.svg) | fasr-grip-dots-vertical | ![](./svg/drag-vertical.svg) |
-| email | [email.svg](./svg/email.svg) | fas-envelope | ![](./svg/email.svg) |
-| exclamation | [exclamation.svg](./svg/exclamation.svg) | fas-exclamation | ![](./svg/exclamation.svg) |
-| eye | [eye.svg](./svg/eye.svg) | fas-eye | ![](./svg/eye.svg) |
-| eyeOutline | [eye-outline.svg](./svg/eye-outline.svg) | far-eye | ![](./svg/eye-outline.svg) |
-| facebook | [facebook.svg](./svg/facebook.svg) | fab-facebook | ![](./svg/facebook.svg) |
-| file | [file.svg](./svg/file.svg) | fas-file | ![](./svg/file.svg) |
-| fileCompare | [file-compare.svg](./svg/file-compare.svg) | fas-file-plus-minus | ![](./svg/file-compare.svg) |
-| fileDocument | [file-document.svg](./svg/file-document.svg) | None | ![](./svg/file-document.svg) |
-| fileMultiple | [file-multiple.svg](./svg/file-multiple.svg) | fas-files | ![](./svg/file-multiple.svg) |
-| filePdfBox | [file-pdf-box.svg](./svg/file-pdf-box.svg) | None | ![](./svg/file-pdf-box.svg) |
-| filePresentationBox | [file-presentation-box.svg](./svg/file-presentation-box.svg) | None | ![](./svg/file-presentation-box.svg) |
-| fileTableBox | [file-table-box.svg](./svg/file-table-box.svg) | None | ![](./svg/file-table-box.svg) |
-| fileUpload | [file-upload.svg](./svg/file-upload.svg) | fas-file-arrow-up | ![](./svg/file-upload.svg) |
-| filter | [filter.svg](./svg/filter.svg) | fas-filter | ![](./svg/filter.svg) |
-| folderMove | [folder-move.svg](./svg/folder-move.svg) | None | ![](./svg/folder-move.svg) |
-| folderMultiple | [folder-multiple.svg](./svg/folder-multiple.svg) | fas-folders | ![](./svg/folder-multiple.svg) |
-| folderOpen | [folder-open.svg](./svg/folder-open.svg) | fas-folder-open | ![](./svg/folder-open.svg) |
-| folderPlus | [folder-plus.svg](./svg/folder-plus.svg) | fas-folder-plus | ![](./svg/folder-plus.svg) |
-| folder | [folder.svg](./svg/folder.svg) | fas-folder | ![](./svg/folder.svg) |
-| formatListBulletedSquare | [format-list-bulleted-square.svg](./svg/format-list-bulleted-square.svg) | fasr-list | ![](./svg/format-list-bulleted-square.svg) |
-| fullscreen | [fullscreen.svg](./svg/fullscreen.svg) | fas-expand | ![](./svg/fullscreen.svg) |
-| fullscreenExit | [fullscreen-exit.svg](./svg/fullscreen-exit.svg) | fas-compress | ![](./svg/fullscreen-exit.svg) |
-| headset | [headset.svg](./svg/headset.svg) | fas-headphones | ![](./svg/headset.svg) |
-| history | [history.svg](./svg/history.svg) | fa-clock-rotate-left | ![](./svg/history.svg) |
-| home | [home.svg](./svg/home.svg) | fas-house | ![](./svg/home.svg) |
-| image | [image.svg](./svg/image.svg) | fas-image | ![](./svg/image.svg) |
-| imageEdit | [image-edit.svg](./svg/image-edit.svg) | None | ![](./svg/image-edit.svg) |
-| imageOffOutline | [image-off-outline.svg](./svg/image-off-outline.svg) | far-image-slash | ![](./svg/image-off-outline.svg) |
-| information | [information.svg](./svg/information.svg) | fas-circle-info | ![](./svg/information.svg) |
-| informationVariant | [information-variant.svg](./svg/information-variant.svg) | fa-info | ![](./svg/information-variant.svg) |
-| key | [key.svg](./svg/key.svg) | fas-key | ![](./svg/key.svg) |
-| laptop | [laptop.svg](./svg/laptop.svg) | fas-laptop | ![](./svg/laptop.svg) |
-| link | [link.svg](./svg/link.svg) | fas-link | ![](./svg/link.svg) |
-| listBox | [list-box.svg](./svg/list-box.svg) | fas-rectangle-list | ![](./svg/list-box.svg) |
-| lock | [lock.svg](./svg/lock.svg) | fas-lock | ![](./svg/lock.svg) |
-| lockOpen | [lock-open.svg](./svg/lock-open.svg) | fas-lock-open | ![](./svg/lock-open.svg) |
-| magnify | [magnify.svg](./svg/magnify.svg) | far-magnifying-glass | ![](./svg/magnify.svg) |
-| mapClock | [map-clock.svg](./svg/map-clock.svg) | far-map-location-dot | ![](./svg/map-clock.svg) |
-| mapMarker | [map-marker.svg](./svg/map-marker.svg) | fas-location-dot | ![](./svg/map-marker.svg) |
-| menuDown | [menu-down.svg](./svg/menu-down.svg) | fas-caret-down | ![](./svg/menu-down.svg) |
-| menuUp | [menu-up.svg](./svg/menu-up.svg) | fas-caret-up | ![](./svg/menu-up.svg) |
-| messageReplyText | [message-reply-text.svg](./svg/message-reply-text.svg) | fas-messages-lines | ![](./svg/message-reply-text.svg) |
-| movie | [movie.svg](./svg/movie.svg) | fas-clapperboard | ![](./svg/movie.svg) |
-| music | [music.svg](./svg/music.svg) | fas-music | ![](./svg/music.svg) |
-| network | [network.svg](./svg/network.svg) | fas-network-wired | ![](./svg/network.svg) |
-| networkOff | [network-off.svg](./svg/network-off.svg) | None | ![](./svg/network-off.svg) |
-| newBox | [new-box.svg](./svg/new-box.svg) | fas-square-plus | ![](./svg/new-box.svg) |
-| palette | [palette.svg](./svg/palette.svg) | fas-palette | ![](./svg/palette.svg) |
-| pencil | [pencil.svg](./svg/pencil.svg) | fas-pen | ![](./svg/pencil.svg) |
-| playCircle | [play-circle.svg](./svg/play-circle.svg) | fas-play | ![](./svg/play-circle.svg) |
-| playCircleOutline | [play-circle-outline.svg](./svg/play-circle-outline.svg) | far-play | ![](./svg/play-circle-outline.svg) |
-| plus | [plus.svg](./svg/plus.svg) | fas-plus | ![](./svg/plus.svg) |
-| qrcode | [qrcode.svg](./svg/qrcode.svg) | fas-qrcode | ![](./svg/qrcode.svg) |
-| refresh | [refresh.svg](./svg/refresh.svg) | fas-arrow-rotate-right | ![](./svg/refresh.svg) |
-| shareCircle | [share-circle.svg](./svg/share-circle.svg) | fas-share | ![](./svg/share-circle.svg) |
-| shareVariant | [share-variant.svg](./svg/share-variant.svg) | fas-share-nodes | ![](./svg/share-variant.svg) |
-| sourceBranch | [source-branch.svg](./svg/source-branch.svg) | fas-code-branch | ![](./svg/source-branch.svg) |
-| starOutline | [star-outline.svg](./svg/star-outline.svg) | fasr-star | ![](./svg/star-outline.svg) |
-| star | [star.svg](./svg/star.svg) | fass-star | ![](./svg/star.svg) |
-| tag | [tag.svg](./svg/tag.svg) | fas-tag | ![](./svg/tag.svg) |
-| trayArrowDown | [tray-arrow-down.svg](./svg/tray-arrow-down.svg) | far-arrow-down-to-bracket | ![](./svg/tray-arrow-down.svg) |
-| trashCan | [trash-can.svg](./svg/trash-can.svg) | fas-trash-can | ![](./svg/trash-can.svg) |
-| triangleSmallDown | [triangle-small-down.svg](./svg/triangle-small-down.svg) | fas-caret-down | ![](./svg/triangle-small-down.svg) |
-| tune | [tune.svg](./svg/tune.svg) | fas-sliders | ![](./svg/tune.svg) |
-| twitter | [twitter.svg](./svg/twitter.svg) | fab-twitter | ![](./svg/twitter.svg) |
-| undo | [undo.svg](./svg/undo.svg) | fas-undo | ![](./svg/undo.svg) |
-| upload | [upload.svg](./svg/upload.svg) | fas-upload | ![](./svg/upload.svg) |
-| viewGrid | [view-grid.svg](./svg/view-grid.svg) | fas-grid | ![](./svg/view-grid.svg) |
-| weatherNight | [weather-night.svg](./svg/weather-night.svg) | far-moon-stars | ![](./svg/weather-night.svg) |
-| web | [web.svg](./svg/web.svg) | fas-globe | ![](./svg/web.svg) |
-| wrench | [wrench.svg](./svg/wrench.svg) | fas-wrench | ![](./svg/wrench.svg) |
+| Icon Name | SVG File | MDI Preview | FA Preview | FA Icon |
+|-----------|----------|-------------|------------|------------------|
+| accountCircleOutline | [account-circle-outline.svg](./svg/account-circle-outline.svg) | ![](./svg/account-circle-outline.svg) | ![](./dist/svg/account-circle-outline.svg) | far-[user-circle](https://fontawesome.com/icons/user-circle?f=classic&s=regular) |
+| accountClock | [account-clock.svg](./svg/account-clock.svg) | ![](./svg/account-clock.svg) | ![](./dist/svg/account-clock.svg) | fas-[user-clock](https://fontawesome.com/icons/user-clock?f=classic&s=solid) |
+| accountGroup | [account-group.svg](./svg/account-group.svg) | ![](./svg/account-group.svg) | ![](./dist/svg/account-group.svg) | fas-[users](https://fontawesome.com/icons/users?f=classic&s=solid) |
+| accountPlus | [account-plus.svg](./svg/account-plus.svg) | ![](./svg/account-plus.svg) | ![](./dist/svg/account-plus.svg) | fas-[user-plus](https://fontawesome.com/icons/user-plus?f=classic&s=solid) |
+| account | [account.svg](./svg/account.svg) | ![](./svg/account.svg) | ![](./dist/svg/account.svg) | fas-[user](https://fontawesome.com/icons/user?f=classic&s=solid) |
+| alertCircleOutline | [alert-circle-outline.svg](./svg/alert-circle-outline.svg) | ![](./svg/alert-circle-outline.svg) | ![](./dist/svg/alert-circle-outline.svg) | far-[exclamation-circle](https://fontawesome.com/icons/exclamation-circle?f=classic&s=regular) |
+| alertOutline | [alert-outline.svg](./svg/alert-outline.svg) | ![](./svg/alert-outline.svg) | ![](./dist/svg/alert-outline.svg) | far-[exclamation-triangle](https://fontawesome.com/icons/exclamation-triangle?f=classic&s=regular) |
+| arrowDown | [arrow-down.svg](./svg/arrow-down.svg) | ![](./svg/arrow-down.svg) | ![](./dist/svg/arrow-down.svg) | fas-[arrow-down](https://fontawesome.com/icons/arrow-down?f=classic&s=solid) |
+| arrowLeft | [arrow-left.svg](./svg/arrow-left.svg) | ![](./svg/arrow-left.svg) | ![](./dist/svg/arrow-left.svg) | fas-[arrow-left](https://fontawesome.com/icons/arrow-left?f=classic&s=solid) |
+| arrowRight | [arrow-right.svg](./svg/arrow-right.svg) | ![](./svg/arrow-right.svg) | ![](./dist/svg/arrow-right.svg) | fas-[arrow-right](https://fontawesome.com/icons/arrow-right?f=classic&s=solid) |
+| arrowULeftTop | [arrow-u-left-top.svg](./svg/arrow-u-left-top.svg) | ![](./svg/arrow-u-left-top.svg) | ![](./dist/svg/arrow-u-left-top.svg) | fas-[rotate-left](https://fontawesome.com/icons/rotate-left?f=classic&s=solid) |
+| arrowUp | [arrow-up.svg](./svg/arrow-up.svg) | ![](./svg/arrow-up.svg) | ![](./dist/svg/arrow-up.svg) | fas-[arrow-up](https://fontawesome.com/icons/arrow-up?f=classic&s=solid) |
+| backupRestore | [backup-restore.svg](./svg/backup-restore.svg) | ![](./svg/backup-restore.svg) | ![](./dist/svg/backup-restore.svg) | fas-[clock-rotate-left](https://fontawesome.com/icons/clock-rotate-left?f=classic&s=solid) |
+| calendar | [calendar.svg](./svg/calendar.svg) | ![](./svg/calendar.svg) | ![](./dist/svg/calendar.svg) | fa-[calendar](https://fontawesome.com/icons/calendar?f=classic&s=solid) |
+| calendarRange | [calendar-range.svg](./svg/calendar-range.svg) | ![](./svg/calendar-range.svg) | ![](./dist/svg/calendar-range.svg) | far-[calendar-range](https://fontawesome.com/icons/calendar-range?f=classic&s=regular) |
+| cancel | [cancel.svg](./svg/cancel.svg) | ![](./svg/cancel.svg) | ![](./dist/svg/cancel.svg) | fa-[ban](https://fontawesome.com/icons/ban?f=classic&s=solid) |
+| chartPie | [chart-pie.svg](./svg/chart-pie.svg) | ![](./svg/chart-pie.svg) | ![](./dist/svg/chart-pie.svg) | fas-[chart-pie](https://fontawesome.com/icons/chart-pie?f=classic&s=solid) |
+| check | [check.svg](./svg/check.svg) | ![](./svg/check.svg) | ![](./dist/svg/check.svg) | far-[check](https://fontawesome.com/icons/check?f=classic&s=regular) |
+| checkBold | [check-bold.svg](./svg/check-bold.svg) | ![](./svg/check-bold.svg) | ![](./dist/svg/check-bold.svg) | fas-[check](https://fontawesome.com/icons/check?f=classic&s=solid) |
+| chevronDown | [chevron-down.svg](./svg/chevron-down.svg) | ![](./svg/chevron-down.svg) | ![](./dist/svg/chevron-down.svg) | fas-[chevron-down](https://fontawesome.com/icons/chevron-down?f=classic&s=solid) |
+| chevronRight | [chevron-right.svg](./svg/chevron-right.svg) | ![](./svg/chevron-right.svg) | ![](./dist/svg/chevron-right.svg) | fas-[chevron-right](https://fontawesome.com/icons/chevron-right?f=classic&s=solid) |
+| circleOutline | [circle-outline.svg](./svg/circle-outline.svg) | ![](./svg/circle-outline.svg) | ![](./dist/svg/circle-outline.svg) | far-[circle](https://fontawesome.com/icons/circle?f=classic&s=regular) |
+| circleSlice3 | [circle-slice-3.svg](./svg/circle-slice-3.svg) | ![](./svg/circle-slice-3.svg) | ![](./dist/svg/circle-slice-3.svg) | far-[circle-quarter-stroke](https://fontawesome.com/icons/circle-quarter-stroke?f=classic&s=regular) |
+| clipboard | [clipboard.svg](./svg/clipboard.svg) | ![](./svg/clipboard.svg) | ![](./dist/svg/clipboard.svg) | fas-[clipboard](https://fontawesome.com/icons/clipboard?f=classic&s=solid) |
+| clipboardFlow | [clipboard-flow.svg](./svg/clipboard-flow.svg) | ![](./svg/clipboard-flow.svg) | ![](./dist/svg/clipboard-flow.svg) | fas-[copy](https://fontawesome.com/icons/copy?f=classic&s=solid) |
+| close | [close.svg](./svg/close.svg) | ![](./svg/close.svg) | ![](./dist/svg/close.svg) | fas-[xmark](https://fontawesome.com/icons/xmark?f=classic&s=solid) |
+| cloud | [cloud.svg](./svg/cloud.svg) | ![](./svg/cloud.svg) | ![](./dist/svg/cloud.svg) | fas-[cloud](https://fontawesome.com/icons/cloud?f=classic&s=solid) |
+| cloudCheckVariant | [cloud-check-variant.svg](./svg/cloud-check-variant.svg) | ![](./svg/cloud-check-variant.svg) | ![](./dist/svg/cloud-check-variant.svg) | fas-[cloud-check](https://fontawesome.com/icons/cloud-check?f=classic&s=solid) |
+| cog | [cog.svg](./svg/cog.svg) | ![](./svg/cog.svg) | ![](./dist/svg/cog.svg) | fas-[gear-complex](https://fontawesome.com/icons/gear-complex?f=classic&s=solid) |
+| contacts | [contacts.svg](./svg/contacts.svg) | ![](./svg/contacts.svg) | ![](./dist/svg/contacts.svg) | fas-[image-user](https://fontawesome.com/icons/image-user?f=classic&s=solid) |
+| delete | [delete.svg](./svg/delete.svg) | ![](./svg/delete.svg) | ![](./dist/svg/delete.svg) | fas-[trash-can](https://fontawesome.com/icons/trash-can?f=classic&s=solid) |
+| dotsHorizontal | [dots-horizontal.svg](./svg/dots-horizontal.svg) | ![](./svg/dots-horizontal.svg) | ![](./dist/svg/dots-horizontal.svg) | far-[ellipsis](https://fontawesome.com/icons/ellipsis?f=classic&s=regular) |
+| download | [download.svg](./svg/download.svg) | ![](./svg/download.svg) | ![](./dist/svg/download.svg) | fas-[download](https://fontawesome.com/icons/download?f=classic&s=solid) |
+| dragVertical | [drag-vertical.svg](./svg/drag-vertical.svg) | ![](./svg/drag-vertical.svg) | ![](./dist/svg/drag-vertical.svg) | fasr-[grip-dots-vertical](https://fontawesome.com/icons/grip-dots-vertical?f=sharp&s=regular) |
+| email | [email.svg](./svg/email.svg) | ![](./svg/email.svg) | ![](./dist/svg/email.svg) | fas-[envelope](https://fontawesome.com/icons/envelope?f=classic&s=solid) |
+| exclamation | [exclamation.svg](./svg/exclamation.svg) | ![](./svg/exclamation.svg) | ![](./dist/svg/exclamation.svg) | fas-[exclamation](https://fontawesome.com/icons/exclamation?f=classic&s=solid) |
+| eye | [eye.svg](./svg/eye.svg) | ![](./svg/eye.svg) | ![](./dist/svg/eye.svg) | fas-[eye](https://fontawesome.com/icons/eye?f=classic&s=solid) |
+| eyeOutline | [eye-outline.svg](./svg/eye-outline.svg) | ![](./svg/eye-outline.svg) | ![](./dist/svg/eye-outline.svg) | far-[eye](https://fontawesome.com/icons/eye?f=classic&s=regular) |
+| facebook | [facebook.svg](./svg/facebook.svg) | ![](./svg/facebook.svg) | ![](./dist/svg/facebook.svg) | fab-[facebook](https://fontawesome.com/icons/facebook?f=brands&s=solid) |
+| file | [file.svg](./svg/file.svg) | ![](./svg/file.svg) | ![](./dist/svg/file.svg) | fas-[file](https://fontawesome.com/icons/file?f=classic&s=solid) |
+| fileCompare | [file-compare.svg](./svg/file-compare.svg) | ![](./svg/file-compare.svg) | ![](./dist/svg/file-compare.svg) | fas-[file-plus-minus](https://fontawesome.com/icons/file-plus-minus?f=classic&s=solid) |
+| fileDocument | [file-document.svg](./svg/file-document.svg) | ![](./svg/file-document.svg) | ![](./dist/svg/file-document.svg) | None |
+| fileMultiple | [file-multiple.svg](./svg/file-multiple.svg) | ![](./svg/file-multiple.svg) | ![](./dist/svg/file-multiple.svg) | fas-[files](https://fontawesome.com/icons/files?f=classic&s=solid) |
+| filePdfBox | [file-pdf-box.svg](./svg/file-pdf-box.svg) | ![](./svg/file-pdf-box.svg) | ![](./dist/svg/file-pdf-box.svg) | None |
+| filePresentationBox | [file-presentation-box.svg](./svg/file-presentation-box.svg) | ![](./svg/file-presentation-box.svg) | ![](./dist/svg/file-presentation-box.svg) | None |
+| fileTableBox | [file-table-box.svg](./svg/file-table-box.svg) | ![](./svg/file-table-box.svg) | ![](./dist/svg/file-table-box.svg) | None |
+| fileUpload | [file-upload.svg](./svg/file-upload.svg) | ![](./svg/file-upload.svg) | ![](./dist/svg/file-upload.svg) | fas-[file-arrow-up](https://fontawesome.com/icons/file-arrow-up?f=classic&s=solid) |
+| filter | [filter.svg](./svg/filter.svg) | ![](./svg/filter.svg) | ![](./dist/svg/filter.svg) | fas-[filter](https://fontawesome.com/icons/filter?f=classic&s=solid) |
+| folderMove | [folder-move.svg](./svg/folder-move.svg) | ![](./svg/folder-move.svg) | ![](./dist/svg/folder-move.svg) | None |
+| folderMultiple | [folder-multiple.svg](./svg/folder-multiple.svg) | ![](./svg/folder-multiple.svg) | ![](./dist/svg/folder-multiple.svg) | fas-[folders](https://fontawesome.com/icons/folders?f=classic&s=solid) |
+| folderOpen | [folder-open.svg](./svg/folder-open.svg) | ![](./svg/folder-open.svg) | ![](./dist/svg/folder-open.svg) | fas-[folder-open](https://fontawesome.com/icons/folder-open?f=classic&s=solid) |
+| folderPlus | [folder-plus.svg](./svg/folder-plus.svg) | ![](./svg/folder-plus.svg) | ![](./dist/svg/folder-plus.svg) | fas-[folder-plus](https://fontawesome.com/icons/folder-plus?f=classic&s=solid) |
+| folder | [folder.svg](./svg/folder.svg) | ![](./svg/folder.svg) | ![](./dist/svg/folder.svg) | fas-[folder](https://fontawesome.com/icons/folder?f=classic&s=solid) |
+| formatListBulletedSquare | [format-list-bulleted-square.svg](./svg/format-list-bulleted-square.svg) | ![](./svg/format-list-bulleted-square.svg) | ![](./dist/svg/format-list-bulleted-square.svg) | fasr-[list](https://fontawesome.com/icons/list?f=sharp&s=regular) |
+| fullscreen | [fullscreen.svg](./svg/fullscreen.svg) | ![](./svg/fullscreen.svg) | ![](./dist/svg/fullscreen.svg) | fas-[expand](https://fontawesome.com/icons/expand?f=classic&s=solid) |
+| fullscreenExit | [fullscreen-exit.svg](./svg/fullscreen-exit.svg) | ![](./svg/fullscreen-exit.svg) | ![](./dist/svg/fullscreen-exit.svg) | fas-[compress](https://fontawesome.com/icons/compress?f=classic&s=solid) |
+| headset | [headset.svg](./svg/headset.svg) | ![](./svg/headset.svg) | ![](./dist/svg/headset.svg) | fas-[headphones](https://fontawesome.com/icons/headphones?f=classic&s=solid) |
+| history | [history.svg](./svg/history.svg) | ![](./svg/history.svg) | ![](./dist/svg/history.svg) | fa-[clock-rotate-left](https://fontawesome.com/icons/clock-rotate-left?f=classic&s=solid) |
+| home | [home.svg](./svg/home.svg) | ![](./svg/home.svg) | ![](./dist/svg/home.svg) | fas-[house](https://fontawesome.com/icons/house?f=classic&s=solid) |
+| image | [image.svg](./svg/image.svg) | ![](./svg/image.svg) | ![](./dist/svg/image.svg) | fas-[image](https://fontawesome.com/icons/image?f=classic&s=solid) |
+| imageEdit | [image-edit.svg](./svg/image-edit.svg) | ![](./svg/image-edit.svg) | ![](./dist/svg/image-edit.svg) | None |
+| imageOffOutline | [image-off-outline.svg](./svg/image-off-outline.svg) | ![](./svg/image-off-outline.svg) | ![](./dist/svg/image-off-outline.svg) | far-[image-slash](https://fontawesome.com/icons/image-slash?f=classic&s=regular) |
+| information | [information.svg](./svg/information.svg) | ![](./svg/information.svg) | ![](./dist/svg/information.svg) | fas-[circle-info](https://fontawesome.com/icons/circle-info?f=classic&s=solid) |
+| informationVariant | [information-variant.svg](./svg/information-variant.svg) | ![](./svg/information-variant.svg) | ![](./dist/svg/information-variant.svg) | fa-[info](https://fontawesome.com/icons/info?f=classic&s=solid) |
+| key | [key.svg](./svg/key.svg) | ![](./svg/key.svg) | ![](./dist/svg/key.svg) | fas-[key](https://fontawesome.com/icons/key?f=classic&s=solid) |
+| laptop | [laptop.svg](./svg/laptop.svg) | ![](./svg/laptop.svg) | ![](./dist/svg/laptop.svg) | fas-[laptop](https://fontawesome.com/icons/laptop?f=classic&s=solid) |
+| link | [link.svg](./svg/link.svg) | ![](./svg/link.svg) | ![](./dist/svg/link.svg) | fas-[link](https://fontawesome.com/icons/link?f=classic&s=solid) |
+| listBox | [list-box.svg](./svg/list-box.svg) | ![](./svg/list-box.svg) | ![](./dist/svg/list-box.svg) | fas-[rectangle-list](https://fontawesome.com/icons/rectangle-list?f=classic&s=solid) |
+| lock | [lock.svg](./svg/lock.svg) | ![](./svg/lock.svg) | ![](./dist/svg/lock.svg) | fas-[lock](https://fontawesome.com/icons/lock?f=classic&s=solid) |
+| lockOpen | [lock-open.svg](./svg/lock-open.svg) | ![](./svg/lock-open.svg) | ![](./dist/svg/lock-open.svg) | fas-[lock-open](https://fontawesome.com/icons/lock-open?f=classic&s=solid) |
+| magnify | [magnify.svg](./svg/magnify.svg) | ![](./svg/magnify.svg) | ![](./dist/svg/magnify.svg) | far-[magnifying-glass](https://fontawesome.com/icons/magnifying-glass?f=classic&s=regular) |
+| mapClock | [map-clock.svg](./svg/map-clock.svg) | ![](./svg/map-clock.svg) | ![](./dist/svg/map-clock.svg) | far-[map-location-dot](https://fontawesome.com/icons/map-location-dot?f=classic&s=regular) |
+| mapMarker | [map-marker.svg](./svg/map-marker.svg) | ![](./svg/map-marker.svg) | ![](./dist/svg/map-marker.svg) | fas-[location-dot](https://fontawesome.com/icons/location-dot?f=classic&s=solid) |
+| menuDown | [menu-down.svg](./svg/menu-down.svg) | ![](./svg/menu-down.svg) | ![](./dist/svg/menu-down.svg) | fas-[caret-down](https://fontawesome.com/icons/caret-down?f=classic&s=solid) |
+| menuUp | [menu-up.svg](./svg/menu-up.svg) | ![](./svg/menu-up.svg) | ![](./dist/svg/menu-up.svg) | fas-[caret-up](https://fontawesome.com/icons/caret-up?f=classic&s=solid) |
+| messageReplyText | [message-reply-text.svg](./svg/message-reply-text.svg) | ![](./svg/message-reply-text.svg) | ![](./dist/svg/message-reply-text.svg) | fas-[message-lines](https://fontawesome.com/icons/message-lines?f=classic&s=solid) |
+| movie | [movie.svg](./svg/movie.svg) | ![](./svg/movie.svg) | ![](./dist/svg/movie.svg) | fas-[clapperboard](https://fontawesome.com/icons/clapperboard?f=classic&s=solid) |
+| music | [music.svg](./svg/music.svg) | ![](./svg/music.svg) | ![](./dist/svg/music.svg) | fas-[music](https://fontawesome.com/icons/music?f=classic&s=solid) |
+| network | [network.svg](./svg/network.svg) | ![](./svg/network.svg) | ![](./dist/svg/network.svg) | fas-[network-wired](https://fontawesome.com/icons/network-wired?f=classic&s=solid) |
+| networkOff | [network-off.svg](./svg/network-off.svg) | ![](./svg/network-off.svg) | ![](./dist/svg/network-off.svg) | None |
+| newBox | [new-box.svg](./svg/new-box.svg) | ![](./svg/new-box.svg) | ![](./dist/svg/new-box.svg) | fas-[square-plus](https://fontawesome.com/icons/square-plus?f=classic&s=solid) |
+| palette | [palette.svg](./svg/palette.svg) | ![](./svg/palette.svg) | ![](./dist/svg/palette.svg) | fas-[palette](https://fontawesome.com/icons/palette?f=classic&s=solid) |
+| pencil | [pencil.svg](./svg/pencil.svg) | ![](./svg/pencil.svg) | ![](./dist/svg/pencil.svg) | fas-[pen](https://fontawesome.com/icons/pen?f=classic&s=solid) |
+| playCircle | [play-circle.svg](./svg/play-circle.svg) | ![](./svg/play-circle.svg) | ![](./dist/svg/play-circle.svg) | fas-[play](https://fontawesome.com/icons/play?f=classic&s=solid) |
+| playCircleOutline | [play-circle-outline.svg](./svg/play-circle-outline.svg) | ![](./svg/play-circle-outline.svg) | ![](./dist/svg/play-circle-outline.svg) | far-[play](https://fontawesome.com/icons/play?f=classic&s=regular) |
+| plus | [plus.svg](./svg/plus.svg) | ![](./svg/plus.svg) | ![](./dist/svg/plus.svg) | fas-[plus](https://fontawesome.com/icons/plus?f=classic&s=solid) |
+| qrcode | [qrcode.svg](./svg/qrcode.svg) | ![](./svg/qrcode.svg) | ![](./dist/svg/qrcode.svg) | fas-[qrcode](https://fontawesome.com/icons/qrcode?f=classic&s=solid) |
+| refresh | [refresh.svg](./svg/refresh.svg) | ![](./svg/refresh.svg) | ![](./dist/svg/refresh.svg) | fas-[arrow-rotate-right](https://fontawesome.com/icons/arrow-rotate-right?f=classic&s=solid) |
+| shareCircle | [share-circle.svg](./svg/share-circle.svg) | ![](./svg/share-circle.svg) | ![](./dist/svg/share-circle.svg) | fas-[share](https://fontawesome.com/icons/share?f=classic&s=solid) |
+| shareVariant | [share-variant.svg](./svg/share-variant.svg) | ![](./svg/share-variant.svg) | ![](./dist/svg/share-variant.svg) | fas-[share-nodes](https://fontawesome.com/icons/share-nodes?f=classic&s=solid) |
+| sourceBranch | [source-branch.svg](./svg/source-branch.svg) | ![](./svg/source-branch.svg) | ![](./dist/svg/source-branch.svg) | fas-[code-branch](https://fontawesome.com/icons/code-branch?f=classic&s=solid) |
+| starOutline | [star-outline.svg](./svg/star-outline.svg) | ![](./svg/star-outline.svg) | ![](./dist/svg/star-outline.svg) | fasr-[star](https://fontawesome.com/icons/star?f=sharp&s=regular) |
+| star | [star.svg](./svg/star.svg) | ![](./svg/star.svg) | ![](./dist/svg/star.svg) | fass-[star](https://fontawesome.com/icons/star?f=sharp&s=solid) |
+| tag | [tag.svg](./svg/tag.svg) | ![](./svg/tag.svg) | ![](./dist/svg/tag.svg) | fas-[tag](https://fontawesome.com/icons/tag?f=classic&s=solid) |
+| trayArrowDown | [tray-arrow-down.svg](./svg/tray-arrow-down.svg) | ![](./svg/tray-arrow-down.svg) | ![](./dist/svg/tray-arrow-down.svg) | far-[arrow-down-to-bracket](https://fontawesome.com/icons/arrow-down-to-bracket?f=classic&s=regular) |
+| trashCan | [trash-can.svg](./svg/trash-can.svg) | ![](./svg/trash-can.svg) | ![](./dist/svg/trash-can.svg) | fas-[trash-can](https://fontawesome.com/icons/trash-can?f=classic&s=solid) |
+| triangleSmallDown | [triangle-small-down.svg](./svg/triangle-small-down.svg) | ![](./svg/triangle-small-down.svg) | ![](./dist/svg/triangle-small-down.svg) | fas-[caret-down](https://fontawesome.com/icons/caret-down?f=classic&s=solid) |
+| tune | [tune.svg](./svg/tune.svg) | ![](./svg/tune.svg) | ![](./dist/svg/tune.svg) | fas-[sliders](https://fontawesome.com/icons/sliders?f=classic&s=solid) |
+| twitter | [twitter.svg](./svg/twitter.svg) | ![](./svg/twitter.svg) | ![](./dist/svg/twitter.svg) | fab-[twitter](https://fontawesome.com/icons/twitter?f=brands&s=solid) |
+| undo | [undo.svg](./svg/undo.svg) | ![](./svg/undo.svg) | ![](./dist/svg/undo.svg) | fas-[undo](https://fontawesome.com/icons/undo?f=classic&s=solid) |
+| upload | [upload.svg](./svg/upload.svg) | ![](./svg/upload.svg) | ![](./dist/svg/upload.svg) | fas-[upload](https://fontawesome.com/icons/upload?f=classic&s=solid) |
+| viewGrid | [view-grid.svg](./svg/view-grid.svg) | ![](./svg/view-grid.svg) | ![](./dist/svg/view-grid.svg) | fas-[grid](https://fontawesome.com/icons/grid?f=classic&s=solid) |
+| weatherNight | [weather-night.svg](./svg/weather-night.svg) | ![](./svg/weather-night.svg) | ![](./dist/svg/weather-night.svg) | far-[moon-stars](https://fontawesome.com/icons/moon-stars?f=classic&s=regular) |
+| web | [web.svg](./svg/web.svg) | ![](./svg/web.svg) | ![](./dist/svg/web.svg) | fas-[globe](https://fontawesome.com/icons/globe?f=classic&s=solid) |
+| wrench | [wrench.svg](./svg/wrench.svg) | ![](./svg/wrench.svg) | ![](./dist/svg/wrench.svg) | fas-[wrench](https://fontawesome.com/icons/wrench?f=classic&s=solid) |
