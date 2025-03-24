@@ -43,7 +43,7 @@ export default {
 	delete: { file: 'delete.svg', fa_icon: 'fas-trash-can' },
 	dotsHorizontal: { file: 'dots-horizontal.svg', fa_icon: 'fas-ellipsis' },
 	dotsHorizontalCircleOutline: { file: 'dots-horizontal-circle.svg', fa_icon: 'fas-circle-ellipsis' },
-	download: { file: 'download.svg', fa_icon: 'fas-download' },
+	download: { file: 'download.svg', fa_icon: 'fas-arrow-down-to-bracket' },
 	dragVertical: { file: 'drag-vertical.svg', fa_icon: 'fasr-grip-dots-vertical' },
 	email: { file: 'email.svg', fa_icon: 'fas-envelope' },
 	exclamation: { file: 'exclamation.svg', fa_icon: 'fas-exclamation' },
